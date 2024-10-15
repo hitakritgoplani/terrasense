@@ -1,0 +1,25 @@
+.details{
+	/* color: black; */
+	font-size: 1.5vw;
+    text-align: center;
+	font-weight: bolder;
+}
+.inner-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding: 1vw;
+	margin: 4vw;
+    margin-top: 5vw;
+	height: 60vh;
+	width: 20.7vw;
+    border-radius: 0.7vw;
+    border: 1px black solid;
+	cursor: pointer;
+	box-shadow: 4px 4px gray;
+}
+.inner-div:hover{
+	scale: 1.1;
+	transition: ease-in-out 0.2s;
+}

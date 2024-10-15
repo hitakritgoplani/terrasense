@@ -1,0 +1,62 @@
+.legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+
+    padding: 10px;
+        border-radius: 5px;
+    width: 2000px;
+    margin: 10px;
+  }
+
+  .legend-items-root{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .color {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px black solid;
+  }
+  
+  .agri-land {
+      background-color: rgb(0, 255, 255); /* Example color for Urban Land */
+    }
+    
+    .urban-land {
+      background-color: rgb(255, 255, 0); /* Example color for Agri Land */
+  }
+
+  .range-land{
+    background-color: rgb(255, 0, 255);
+  }
+
+  .forest-land{
+    background-color: rgb(0, 255, 0);
+  }
+
+  .barren-land{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .water{
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .unknown {
+    background-color: rgb(0, 0, 0); /* Example color for Unknown */
+  }
